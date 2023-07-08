@@ -25,7 +25,7 @@ class Property<T> {
   }
 }
 
-public class Day1 {
+public class Day1a {
   private static final String FILE_NAME = "Day1a.txt";
   private static int answer = 0;
 
@@ -50,8 +50,8 @@ public class Day1 {
 
   public static void main(String[] args) {
     
-    Property<Integer> maxSumCalories = new Property<Integer>(0);
-    Property<Integer> sumCalories = new Property<Integer>(0);
+    Property<Integer> maxSumCalories = new Property<>(0);
+    Property<Integer> sumCalories = new Property<>(0);
 
     // read the file 
     readLines((line) -> {
